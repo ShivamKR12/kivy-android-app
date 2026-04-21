@@ -1,26 +1,19 @@
 [app]
-# title = My App
-# package.name = myapp
-title = Pygame App
-package.name = pygameapp
+title = My App
+package.name = myapp
 package.domain = org.test
 
 version = 0.1
 
 source.dir = .
-source.include_exts = py,png,jpg,kv,ttf
+source.include_exts = py,png,jpg,kv
 
-# requirements = python3,kivy
-requirements = python3,pygame-ce
-
-android.bootstrap = sdl2
+requirements = python3,kivy
 
 android.permissions = INTERNET
 
-android.archs = arm64-v8a
-
 # (optional but safe defaults)
-fullscreen = 1
+fullscreen = 0
 orientation = portrait
 
 [buildozer]
