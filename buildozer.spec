@@ -11,7 +11,7 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,ttf
 
 # requirements = python3,kivy
-requirements = python3,pygame
+requirements = python3,pygame-ce
 
 android.bootstrap = sdl2
 
