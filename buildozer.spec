@@ -8,7 +8,7 @@ package.domain = org.test
 version = 0.1
 
 source.dir = .
-source.include_exts = py,png,jpg,kv
+source.include_exts = py,png,jpg,kv,ttf
 
 # requirements = python3,kivy
 requirements = python3,pygame
@@ -20,7 +20,7 @@ android.permissions = INTERNET
 android.archs = arm64-v8a
 
 # (optional but safe defaults)
-fullscreen = 0
+fullscreen = 1
 orientation = portrait
 
 [buildozer]
