@@ -15,3 +15,6 @@ android.permissions = INTERNET
 # (optional but safe defaults)
 fullscreen = 0
 orientation = portrait
+
+[buildozer]
+warn_on_root = 0
